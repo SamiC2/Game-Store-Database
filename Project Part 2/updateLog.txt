@@ -1,0 +1,25 @@
+
+Show query box
+ 1 row inserted. (Query took 0.0051 seconds.)
+INSERT INTO `Developers`(`Company Name`, `Game Title`, `Console`, `Market Price`, `Genre`, `Units to Sell`) VALUES ("HunieDev","HuniePot","PC",10.00,"Dating Sim",40000)
+
+Show query box
+ 1 row inserted. (Query took 0.0040 seconds.)
+INSERT INTO `Consoles`(`Console Name`, `Company Name`, `Model Number`, `Number of Units`, `Price`) VALUES ("Sega Genesis","Sega","V2.0",6000,29.99)
+
+Show query box
+ 2 rows deleted. (Query took 0.0044 seconds.)
+DELETE FROM `Reviews` WHERE `Rating` < 6
+
+Show query box
+ 2 rows deleted. (Query took 0.0086 seconds.)
+DELETE FROM `Buyers` WHERE `Buy Price`<20
+
+
+Show query box
+ 1 row affected. (Query took 0.0044 seconds.)
+UPDATE `Sellers` SET `Sell Price`=40 WHERE `Seller Name` = "Gianna Bova"
+
+Show query box
+ 1 row affected. (Query took 0.0041 seconds.)
+UPDATE `Games` SET `dig/phys`="D/P",`numStock`=5000 WHERE `Name` = "Awesomenauts"
